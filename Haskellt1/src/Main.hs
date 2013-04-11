@@ -63,7 +63,7 @@ mapf :: [(Int,Int)] -> [Int]
 mapf [] = []
 mapf s = auxFunc (head s) : mapf (tail s)
 
--- 3-
+-- 3
 somatorio :: [Int] -> Int
 somatorio [] = 0
 somatorio lis = head lis + somatorio (tail lis)
